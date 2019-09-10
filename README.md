@@ -1,3 +1,3 @@
 # aphorismcookie
 
-[![Heroku](https://heroku-badge.herokuapp.com/?app=aphorismcookie)]
+![Heroku](https://heroku-badge.herokuapp.com/?app=aphorismcookie)
