@@ -94,6 +94,9 @@ logger.info('turning on app...');
       'I’ve come to believe that all my past failure and frustration were actually laying the foundation for the understandings that have created the new level of living I now enjoy.',
       'The invariable mark of wisdom is to see the miraculous in the common.',
       'Just as a snake sheds its skin, we must shed our past over and over again.',
+      'In the end, it’s not the years in your life that count. It’s the life in your years.', // i think lincon
+      'You get in life what you have the courage to ask for.', // i think Oprah Winfrey
+      'Life isn’t about finding yourself. Life is about creating yourself.', //George Bernard Shaw
     ];
     res.status(200).send({ data: [li[Math.floor(Math.random() * li.length)]] });
   });
