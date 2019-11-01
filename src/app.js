@@ -97,6 +97,7 @@ logger.info('turning on app...');
       'In the end, it’s not the years in your life that count. It’s the life in your years.', // i think lincon
       'You get in life what you have the courage to ask for.', // i think Oprah Winfrey
       'Life isn’t about finding yourself. Life is about creating yourself.', //George Bernard Shaw
+      'Sometimes a hypocrite is nothing more than a person in the process of changing.',// Dalinar Kholin.
     ];
     res.status(200).send({ data: [li[Math.floor(Math.random() * li.length)]] });
   });
