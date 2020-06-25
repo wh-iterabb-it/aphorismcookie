@@ -1,15 +1,15 @@
 {
   "name": "aphorismcookie",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A simple API which returns aphorisms because fortunecookies was taken",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wh-iterabb-it/meowfacts"
+    "url": "https://github.com/wh-iterabb-it/aphorismcookie"
   },
   "bugs": {
-    "url": "https://github.com/wh-iterabb-it/meowfacts/issues"
+    "url": "https://github.com/wh-iterabb-it/aphorismcookie/issues"
   },
-  "homepage": "https://github.com/wh-iterabb-it/meowfacts#readme",
+  "homepage": "https://github.com/wh-iterabb-it/aphorismcookie#readme",
   "license": "GPL-3.0",
   "scripts": {
     "cover": "nyc npm test && nyc report --reporter=text-lcov > coverage.lcov && ./node_modules/.bin/codecov",
@@ -17,10 +17,10 @@
     "test": "node_modules/.bin/mocha test/. --recursive"
   },
   "dependencies": {
+    "@wh-iterabb-it/sst": "0.0.1",
     "chai-http": "4.3.0",
     "express": "4.17.1",
-    "helmet": "3.22.0",
-    "server-side-tools": "git+https://github.com/wh-iterabb-it/server-side-tools.git"
+    "helmet": "3.22.0"
   },
   "devDependencies": {
     "chai": "4.2.0",
