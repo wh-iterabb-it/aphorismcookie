@@ -9,7 +9,7 @@ node_js:
   - "10.15.2"
 
 before_install:
-  - docker build -t wh-iterabb-it/aphorismcookie .
+  - docker build -e "NODE_AUTH_TOKEN=${NODE_AUTH_TOKEN}" -t wh-iterabb-it/aphorismcookie .
 script:
   - docker run wh-iterabb-it/aphorismcookie npm run test
   - docker run -e "CODECOV_TOKEN=${CODECOV_TOKEN}" wh-iterabb-it/aphorismcookie npm run cover
