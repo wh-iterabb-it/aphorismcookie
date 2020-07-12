@@ -21,7 +21,7 @@ jobs:
           env:
             NODE_AUTH_TOKEN: ${{secrets.NODE_AUTH_TOKEN}}
         - name: docker build
-          run: docker build -T wh-iterabb-it/aphorismcookie .
+          run: docker build -t wh-iterabb-it/aphorismcookie .
           env:
             NODE_AUTH_TOKEN: ${{secrets.NODE_AUTH_TOKEN}}
         - name: create container env
